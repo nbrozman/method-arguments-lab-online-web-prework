@@ -7,5 +7,5 @@ end
 describe "#introduction_with_language" do 
   it "takes in two arguments, a name and a language, and puts out a phrase using those arguments." do 
     expect{introduction_with_language("Nick", "ruby.js")}.to output("Hi, my name is Nick and I am learning to program in ruby.js.\n").to_stdout
-  end
----end
+  ---end
+end
