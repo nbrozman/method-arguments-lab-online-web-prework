@@ -6,6 +6,6 @@ end
 
 describe "#introduction_with_language" do 
   it "takes in two arguments, a name and a language, and puts out a phrase using those arguments." do 
-    expect{introduction_with_language("Dan", "Ember.js")}.to output("Hi, my name is Dan and I am learning to program in Ember.js.\n").to_stdout
+    expect{introduction_with_language("Nick", "ruby")}.to output("Hi, my name is Nick and I am learning to program in ruby.\n").to_stdout
   end
 end
